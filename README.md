@@ -1,6 +1,6 @@
 
 ## Full Static CSS Webpage
-
+view live: https://yazanghunaim.github.io/Landing-Page/
 
 ## Styling used
 
