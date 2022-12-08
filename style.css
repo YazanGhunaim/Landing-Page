@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font: roboto;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.header-title{
+    display: flex;
+    color: #F9FAF8;
+    font-weight: 900;
+    align-items: center;
+    padding-left: 200px;
+    font-size: 24px;
+}
+
+.hero{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #1F2937;
+    padding: 90px;
+    justify-content: space-between;
+}
+
+.left-text{
+    padding-left: 115px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.left-text .title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.left-text .description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right-image img{
+    display: flex;
+    padding: 1em;
+    max-width:450px;
+    max-height:450px;
+    width: auto;
+    height: auto;
+    padding-right: 120px;
+}
+
+.sign-up button{
+    /* display: flex; */
+    padding: 10px 40px;
+    border-radius: 0.8em;
+    color: #E5E7EB;
+    background-color:  #3882F6;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 1em;
+}
+ul{
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+    padding-right: 200px;
+}
+
+li{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
